@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/flayout3">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="237dp">
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/iconsback"
+                android:backgroundTint="@color/purple_700"
+                android:id="@+id/back3_fab"
+                android:elevation="1dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="20dp"/>
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/login_heart"
+                app:lottie_rawRes="@raw/loginheart"
+                android:layout_gravity="center"
+                android:layout_marginBottom="25dp"
+                android:layout_marginRight="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_gravity="center"
+                android:text="@string/quote"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+        </FrameLayout>
+
+        <RelativeLayout
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="62dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="62dp"
+            android:layout_gravity="center"
+            android:background="@drawable/blue_border_rounded_cornwe"
+            >
+
+            <Button
+                android:id="@+id/sign_in_with_google"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:layout_toRightOf="@+id/sign_in_with_google_icon"
+                android:background="@android:color/transparent"
+                android:elevation="5dp"
+                android:maxLines="1"
+                android:paddingLeft="17dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:text="@string/sign_in_with_google"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/sign_in_with_google_icon"
+                android:layout_marginLeft="30dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/google"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="62dp"
+            android:layout_marginTop="36.7dp"
+            android:layout_marginRight="62dp"
+            android:background="@drawable/blue_border_rounded_cornwe"
+            >
+
+            <Button
+                android:id="@+id/sign_in"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="19dp"
+                android:background="@android:color/transparent"
+                android:elevation="5dp"
+                android:maxLines="1"
+                android:paddingLeft="17dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:text="@string/sign_in"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/sign_in_icon"
+                android:layout_marginLeft="30dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_baseline_login_24"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="62dp"
+            android:layout_marginTop="36.7dp"
+            android:layout_marginRight="62dp"
+            android:background="@drawable/blue_border_rounded_cornwe"
+            >
+
+            <Button
+                android:id="@+id/sign_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="19dp"
+                android:background="@android:color/transparent"
+                android:elevation="5dp"
+                android:maxLines="1"
+                android:paddingLeft="17dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:text="@string/sign_up"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/signup_icon"
+                android:layout_marginLeft="30dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/sign"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

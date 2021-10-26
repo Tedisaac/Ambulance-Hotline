@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1093248588677",
+    "firebase_url": "https://ambulance-hotline-default-rtdb.firebaseio.com",
+    "project_id": "ambulance-hotline",
+    "storage_bucket": "ambulance-hotline.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093248588677:android:d0231d734da414131e82ec",
+        "android_client_info": {
+          "package_name": "com.example.ambulancehotline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1093248588677-omtts3s5qe1jd2jkdime92riton7p8ts.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ambulancehotline",
+            "certificate_hash": "899e8f88bfa819b566e764896317766fde5c39b7"
+          }
+        },
+        {
+          "client_id": "1093248588677-pb5ir628spc6dceursf04r8pf3u2n9na.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoaaL9NC7BGWXHqKKpFaZfLA_cGZJ6o54"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1093248588677-pb5ir628spc6dceursf04r8pf3u2n9na.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/title"/>
+
+    <TextView
+        android:id="@+id/area_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_margin="8dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Hospital:"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_margin="10sp"
+        android:layout_toRightOf="@+id/area_tv"
+        android:text="area" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Response Rate:"
+        android:layout_margin="8dp"
+        android:textColor="@color/black"
+        android:id="@+id/response_tv"
+        android:textSize="16sp"
+        android:layout_below="@+id/area_tv"/>
+
+    <TextView
+        android:id="@+id/response"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/area"
+        android:layout_margin="8dp"
+        android:layout_toRightOf="@+id/response_tv"
+        android:text="70%" />
+
+    <Button
+        android:id="@+id/call"
+        android:background="@drawable/call_button_background"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/response_tv"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:text="CALL" />
+
+
+</RelativeLayout>
